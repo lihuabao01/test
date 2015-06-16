@@ -1,0 +1,182 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+/*end reset*/
+/****-----start-body----****/
+
+.wrap{
+	margin: 0 auto;
+	width: 80%;
+}
+body a,form li,input[type="submit"],input[type="text"],.sixth-login input[type="submit"],.third-login input[type="submit"]{
+
+}
+
+.fifth-login{
+	width: 30%;
+	margin:0 auto;
+}
+
+.first-login form {
+	padding:18% 2.9em;
+}
+.first-login form li{
+	border: none;
+	list-style: none;
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid rgba(238, 238, 238, 0.48);
+	border-top-right-radius: 0.3em;
+	-webkit-border-top-right-radius: 0.3em;
+	-o-border-top-right-radius: 0.3em;
+	-moz-border-top-right-radius: 0.3em;
+	border-top-left-radius: 0.3em;
+	-o-	border-top-left-radius: 0.3em;
+	-moz-border-top-left-radius: 0.3em;
+	-webkit-border-top-left-radius: 0.3em;
+	border-left: 4px solid#fff;
+}
+.first-login form li:hover{
+border-left: 4px solid#e67469;
+}
+.first-login form li.pw{
+	border-radius: 0;
+	border-bottom-right-radius: 0.3em;
+	-o-border-bottom-right-radius: 0.3em;
+	-moz-border-bottom-right-radius: 0.3em;
+	-webkit-border-bottom-right-radius: 0.3em;
+	border-bottom-left-radius: 0.3em;
+	-o-border-bottom-left-radius: 0.3em;
+	-moz-border-bottom-left-radius: 0.3em;
+	-webkit-border-bottom-left-radius: 0.3em;
+}
+.icon{
+	height:30px;
+	width:30px;
+	display: block;
+	float:left;
+	margin:21px 1px 0px 12px;
+}
+.user{
+	background: url(../images/icons.png) no-repeat 2px 1px;
+	
+}
+.lock{
+	background: url(../images/icons.png) no-repeat 4px -53px;
+}
+.login-05{
+	background: url(../images/old.png);
+	padding: 6em 0;
+}
+.fifth-login{
+	background: #f6f8f7;
+	text-align: center;
+	border-radius: 0.8em;
+	-o-border-radius: 0.8em;
+	-webkit-border-radius: 0.8em;
+	-moz-border-radius: 0.8em;
+}
+.fifth-login h2{
+	font-size: 1.2em;
+	color: #646464;
+	font-family: 'PT Sans', sans-serif;
+	padding-top:1em;
+}
+form.five {
+	padding:5% 0 0% 0;
+}
+form.five li,li.blue{
+	list-style: none;
+	width: 100%;
+	background: #97ce68;
+	border:none;
+	-moz-box-shadow: inset 0 4px 8px #95B679;
+	-webkit-box-shadow: inset 0 4px 8px #95B679;
+	box-shadow: inset 0 4px 8px #95B679;
+}
+form.five li.blue{
+	background: #6bcbca;
+	-moz-box-shadow: inset 0 4px 8px #54A6A5;
+	-webkit-box-shadow: inset 0 4px 8px #54A6A5;
+	box-shadow: inset 0 4px 8px #54A6A5;
+	margin-top: 0.8em;
+}
+.icon5{
+	height:30px;
+	width:30px;
+	display: block;
+	float: left;
+	margin:12px 0px 0px 1px;
+}
+.user2{
+	background: url(../images/icons5.png) no-repeat 6px 9px;
+	
+}
+.lock2{
+	background: url(../images/icons5.png) no-repeat 8px -18px;
+}
+.fifth-login input[type="text"],.fifth-login input[type="password"] {
+	width:85%;
+	padding: 1em 0.7em 1em 1em;
+	color:#fff;
+	font-size:18px;
+	outline: none;
+	background: none;
+	border:none;
+	-webkit-appearance: none;
+	font-weight:400;
+	font-family: 'PT Sans', sans-serif;
+}
+.submit-five{
+	margin-top:0.8em;
+}
+.fifth-login input[type="submit"]{
+	font-size:20px;
+	font-weight: 600;
+	color: #fff;
+	display: inline-block;
+	padding:1em 0em;
+	width: 100%;
+	font-family: 'PT Sans', sans-serif;
+	cursor: pointer;
+	-webkit-appearance: none;
+	border: none;
+	outline: none;
+	background:#ff6766;
+	-moz-box-shadow: inset 0 4px 8px #D05857;
+	-webkit-box-shadow: inset 0 4px 8px #D05857;
+	box-shadow: inset 0 4px 8px #D05857;
+	border-bottom-right-radius:0.65em;  
+	-o-border-bottom-right-radius:0.65em;  
+	-moz-border-bottom-right-radius:0.65em;  
+	-webkit-border-bottom-right-radius:0.65em;  
+	border-bottom-left-radius:0.65em; 
+	-o-border-bottom-left-radius:0.65em; 
+	-moz-border-bottom-left-radius:0.65em; 
+	-webkit-border-bottom-left-radius:0.65em;  
+
+}
+.fifth-login input[type="submit"]:hover{
+	background: #FD4A49;
+}
+/**sixth-login**/
+form.six {
+	padding:18% 2.9em;
+}

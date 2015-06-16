@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts2.ObjectFactory" value="Spring" />
+	<package name="struts2" extends="struts-default" namespace="/">
+		<action name="Login" class="loginAction">
+			<result name="success">/index.jsp</result>
+			<result name="input">/login.jsp</result>
+		</action>
+		<action name="Register" class="registerAction">
+			<result name="success">/login.jsp</result>
+			<result name="input">/register.jsp</result>
+		</action>
+		<action name="Goods" class="goodsAction">
+			<param name="savePath">/upload</param>
+			<result name="success">/seller_goodslist.jsp</result>
+			<result name="addgoods">/seller_addgoods.jsp</result>
+			<result name="goods">/seller_goods.jsp</result>
+			<result name="goodsinfo">/goods_detail.jsp</result>
+			<result name="update">/seller_goods.jsp</result>
+			<result name="delete" type="redirectAction">
+				<param name="actionName">Goods</param>
+				<param name="redirect">delete</param>
+			</result>
+			<result name="goodslist">/goods.jsp</result>
+			<result name="index">/index.jsp</result>
+		</action>
+		<action name="ShopCart" class="shopCartAction">
+			<result name="addShopCart" type="redirectAction">
+				<param name="actionName">Goods</param>
+				<param name="redirect">addShopCart</param>
+			</result>
+			<result name="shopcart">/custom_scart.jsp</result>
+			<result name="index">/index.jsp</result>
+			<result name="order">/custom_addorder.jsp</result>
+			<result name="success" type="redirectAction">
+				<param name="actionName">ShopCart</param>
+				<param name="refresh">updatecart</param>
+			</result>
+			<result name="deleteShopCart" type="redirectAction">
+				<param name="actionName">ShopCart</param>
+				<param name="refresh">deletecart</param>
+			</result>
+		</action>
+		<action name="Order" class="orderAction">
+			<result name="addOrder">/index.jsp</result>
+			<result name="deleteOrder" type="redirectAction">
+				<param name="actionName">Order</param>
+				<param name="refresh">deleteorder</param>
+			</result>
+			<result name="sellerorder">/seller_orderlist.jsp</result>
+			<result name="customorder">/custom_orderlist.jsp</result>
+			<result name="selleroinfo">/seller_orderinfo.jsp</result>
+			<result name="customoinfo">/custom_orderinfo.jsp</result>
+		</action>
+		<action name="User" class="userAction">
+			<result name="sellerinfo">/seller_info.jsp</result>
+			<result name="custominfo">/custom_info.jsp</result>
+			<result name="admininfo">/admin_info.jsp</result>
+			<result name="updateseller">/seller_info.jsp</result>
+			<result name="updatecustom">/custom_info.jsp</result>
+			<result name="updateadmin">/admin_info.jsp</result>	
+			<result name="updatesellerPsd">/login.jsp</result>
+			<result name="updatecustomPsd">/login.jsp</result>
+			<result name="updateadminPsd">/login.jsp</result>	
+		</action>
+	</package>
+</struts>    

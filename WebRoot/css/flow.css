@@ -1,0 +1,21 @@
+/*购物车样式*/
+.flowBox { width:938px; border:1px solid #a21a1e; border-top:3px solid #a21a1e; margin-bottom:10px;}
+h6 { color:#3F3F3F; font-size:12px; height:23px; line-height:23px; padding-right:10px; text-align:right; background:#fff5f4; }
+h6 span { float:left; padding-left:15px; }
+.flowBox table { margin:5px 5px; background:#FFF; }
+.flowBox table td, .flowBox table th { border:1px solid #ddd; padding:10px; text-align:center; color:#404040; vertical-align:middle; }
+.inputBg { background:url(../images/user_txt_bg.jpg) repeat-x left top; border:1px solid #B3B3B3; height:22px; }
+.red_a { color:#a21a1e!important; text-decoration:underline!important; }
+.align_left { text-align:left!important; }
+.align_right { text-align:right!important; }
+.align_center { text-align:center!important; }
+.bnt_blue_1 { background:url(../images/cart_btn_bg.jpg) no-repeat; width:72px; height:23px; border:none; font-size:12px; margin-left:3px; }
+.flowBox .continue_btn { padding:3px 25px 8px; float:left; display:block; }
+.flowBox .end_btn { padding:3px 15px 8px; float:right; display:block; }
+.flowBox .operation { width:99%; overflow:hidden; }
+
+/*收货地址样式*/
+.bnt_blue_2{ background:url(../images/cart_btn3.jpg) no-repeat; width:151px; height:31px; border:none; font-size:12px; cursor:pointer; }
+
+
+
